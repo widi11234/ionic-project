@@ -1,4 +1,4 @@
-# IONIC UI - MAS WIDI
+# IONIC UI - PROJECT UAS
 
 ## Yang harus diinstall
 1. Android studio
