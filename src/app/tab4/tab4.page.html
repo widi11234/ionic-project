@@ -1,0 +1,29 @@
+<ion-content [fullscreen]="true" class="content">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Profile</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="profile-info">
+    <!-- Foto profil -->
+    <img src="assets/images/profile.jpg" alt="Profile Picture" class="profile-picture">
+
+    <!-- Nama pengguna -->
+    <h2 class="profile-name" style="color: black;">John Doe</h2>
+    <h4 style="color: black;">jhon&#64;yopmail.com</h4>
+    <p style="color: black;">0878-9878-3432</p>
+
+    <!-- Menu -->
+    <ion-grid>
+      <ion-row>
+        <ion-col col="3">
+          <ion-button expand="full" fill="clear" href="/update-profile" class="button-update-profile">Update</ion-button>
+        </ion-col>
+        <ion-col col="3">
+          <ion-button expand="full" fill="clear" href="/" class="button-logout">Logout</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

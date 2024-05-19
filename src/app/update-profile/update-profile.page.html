@@ -1,0 +1,61 @@
+<ion-header [translucent]="true" class="content">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/tabs"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Update Profile
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true" class="content">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Edit Profile</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="profile-section">
+    <ion-card class="profile-card">
+      <ion-card-content>
+        <img src="assets/images/profile.jpg" alt="Profile Picture" class="profile-picture">
+        <ion-item style="padding: 1em;">
+          <ion-label position="stacked">Nama</ion-label>
+          <ion-input placeholder="Nama" style="border-radius: 20px; padding: 1em;"></ion-input>
+        </ion-item>
+
+        <ion-item style="padding: 1em;">
+          <ion-label position="stacked">Username</ion-label>
+          <ion-input placeholder="Username" style="border-radius: 20px; padding: 1em;"></ion-input>
+        </ion-item>
+
+        <ion-item style="padding: 1em;">
+          <ion-label position="stacked">Email</ion-label>
+          <ion-input type="email" placeholder="Email" style="border-radius: 20px; padding: 1em;"></ion-input>
+        </ion-item>
+
+        <ion-item style="padding: 1em;">
+          <ion-label position="stacked">Nomor HP</ion-label>
+          <ion-input type="tel" placeholder="Nomor HP" style="border-radius: 20px; padding: 1em;"></ion-input>
+        </ion-item>
+
+        <ion-item style="padding: 1em;">
+          <ion-label position="stacked">Alamat</ion-label>
+          <ion-textarea placeholder="Alamat" style="border-radius: 20px; padding: 1em;"></ion-textarea>
+        </ion-item>
+
+        <ion-item style="padding: 1em;">
+          <ion-label position="stacked">Password</ion-label>
+          <ion-input type="password" placeholder="Password" style="border-radius: 20px; padding: 1em;"></ion-input>
+        </ion-item>
+
+        <ion-item style="padding: 1em;">
+          <ion-label position="stacked">Re-password</ion-label>
+          <ion-input type="password" placeholder="Re-password" style="border-radius: 20px; padding: 1em;"></ion-input>
+        </ion-item>
+
+        <ion-button expand="full" fill="clear" href="/tabs" class="button-update">Update data</ion-button>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
